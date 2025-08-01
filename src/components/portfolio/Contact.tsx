@@ -89,7 +89,7 @@ const Contact: React.FC = () => {
     // Create a temporary link element to trigger download
     const link = document.createElement('a');
     link.href = 'Laxman_Yadav_Musti.pdf';
-    link.download = 'Laxman_Musti_Resume.pdf';
+    link.download = 'Laxman_Yadav_Musti.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
